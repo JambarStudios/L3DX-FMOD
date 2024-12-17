@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{a98b07ea-10e1-49bd-b0e2-fcd9474cd5ec}">
+		<property name="name">
+			<value>spawnsounds</value>
+		</property>
+		<relationship name="folder">
+			<destination>{88e3b93e-0aa4-4e96-8e36-f71d296913b0}</destination>
+		</relationship>
+	</object>
+</objects>

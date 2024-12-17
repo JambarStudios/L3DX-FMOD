@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{3ada107f-dfca-4a2a-b7bc-9dd997d33522}">
+		<property name="name">
+			<value>pitchshift</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ebd80d4a-6c3c-468b-883d-cc9e4f67e374}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b40051e9-44f9-4ef0-9222-e988e067426a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b40051e9-44f9-4ef0-9222-e988e067426a}">
+		<property name="minimum">
+			<value>-1</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>3</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

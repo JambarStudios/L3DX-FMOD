@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{a5fdee6a-b71c-4ecb-9a41-922ef5b68ef6}">
+		<property name="name">
+			<value>drunk</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ebd80d4a-6c3c-468b-883d-cc9e4f67e374}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cff93e82-268e-4d17-ba10-0c84177f3ebd}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cff93e82-268e-4d17-ba10-0c84177f3ebd}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.14000000059604645</value>
+		</property>
+	</object>
+</objects>
