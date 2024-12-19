@@ -114,6 +114,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{6ef7967e-0cd0-4dee-b82e-3a31913982e5}" />
 	<object class="SingleSound" id="{af5d00e1-db1c-4b26-829d-76078ac84501}">
+		<property name="color">
+			<value>Blue Light 2</value>
+		</property>
 		<property name="length">
 			<value>9.9674583333333331</value>
 		</property>
@@ -122,6 +125,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{b95a0ec4-f0c8-4416-afc9-be00f367cc5c}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="start">
 			<value>156.50412916666667</value>
 		</property>
@@ -136,6 +142,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{5611f484-0e01-44e0-b597-e97f175bb7e4}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
 		<property name="start">
 			<value>12.1904</value>
 		</property>
@@ -168,7 +177,7 @@
 			<value>12.1904</value>
 		</property>
 		<property name="length">
-			<value>150.5598</value>
+			<value>150.55959999999999</value>
 		</property>
 		<property name="name">
 			<value>You Cannoli Run So Far</value>
@@ -180,7 +189,7 @@
 			<destination>{d52c12ea-6331-4d47-9afc-ff4cc7350c7f}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{3df687c0-a1cf-4970-9036-ce88cec5e072}</destination>
+			<destination>{93d0ea1f-0c1b-47cb-9efb-e5aa3a13f9d2}</destination>
 		</relationship>
 		<relationship name="triggerConditions">
 			<destination>{424b45a6-cfac-466b-b1ef-ed5a38d0e8fc}</destination>
@@ -200,7 +209,7 @@
 			<destination>{d52c12ea-6331-4d47-9afc-ff4cc7350c7f}</destination>
 		</relationship>
 		<relationship name="markerTrack">
-			<destination>{93d0ea1f-0c1b-47cb-9efb-e5aa3a13f9d2}</destination>
+			<destination>{3df687c0-a1cf-4970-9036-ce88cec5e072}</destination>
 		</relationship>
 	</object>
 	<object class="TempoMarker" id="{baa4e75e-3222-415f-b830-9c6cae7fe801}">

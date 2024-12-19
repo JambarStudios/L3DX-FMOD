@@ -70,8 +70,6 @@
 			<destination>{619502ed-7a17-4193-a95b-f1d8ed41b67f}</destination>
 			<destination>{8755ae30-9b69-4fab-9d7e-a9a519d941e9}</destination>
 			<destination>{0576f77e-e832-42d8-af40-1d061c434464}</destination>
-			<destination>{c7691e81-be06-4e0a-b958-4742f74be465}</destination>
-			<destination>{b3465c47-09ca-4408-9757-5aa7ee2a4511}</destination>
 			<destination>{1285c1da-5e41-4d30-a209-6f8b5c7673ce}</destination>
 			<destination>{c695317e-d806-4a95-a619-e5a771cfe1ae}</destination>
 		</relationship>
@@ -90,8 +88,6 @@
 			<destination>{619502ed-7a17-4193-a95b-f1d8ed41b67f}</destination>
 			<destination>{8755ae30-9b69-4fab-9d7e-a9a519d941e9}</destination>
 			<destination>{0576f77e-e832-42d8-af40-1d061c434464}</destination>
-			<destination>{c7691e81-be06-4e0a-b958-4742f74be465}</destination>
-			<destination>{b3465c47-09ca-4408-9757-5aa7ee2a4511}</destination>
 			<destination>{1285c1da-5e41-4d30-a209-6f8b5c7673ce}</destination>
 			<destination>{c695317e-d806-4a95-a619-e5a771cfe1ae}</destination>
 		</relationship>
@@ -120,6 +116,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{d1a7b87a-9694-4a63-bb7c-1ef04e7533a6}" />
 	<object class="SingleSound" id="{b5339b89-780a-42c9-a641-11f1c8fb41d9}">
+		<property name="color">
+			<value>Red</value>
+		</property>
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>1</value>
 		</property>
@@ -134,6 +136,12 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{619502ed-7a17-4193-a95b-f1d8ed41b67f}">
+		<property name="color">
+			<value>Blue Light 1</value>
+		</property>
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>2</value>
 		</property>
@@ -148,6 +156,12 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{8755ae30-9b69-4fab-9d7e-a9a519d941e9}">
+		<property name="color">
+			<value>Green</value>
+		</property>
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>3</value>
 		</property>
@@ -162,6 +176,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{0576f77e-e832-42d8-af40-1d061c434464}">
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>4</value>
 		</property>
@@ -175,26 +192,13 @@
 			<destination>{f05a3d83-b9d0-4e55-bba5-995decd6ebe7}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{c7691e81-be06-4e0a-b958-4742f74be465}">
-		<property name="start">
-			<value>6</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{cd854c5c-b033-42e7-a95f-03928a831759}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{b3465c47-09ca-4408-9757-5aa7ee2a4511}">
-		<property name="start">
-			<value>7</value>
-		</property>
-		<property name="volume">
-			<value>2</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{b88ca581-d09d-4a06-b9eb-9699e2d5168d}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{1285c1da-5e41-4d30-a209-6f8b5c7673ce}">
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="start">
 			<value>5</value>
 		</property>
@@ -203,6 +207,12 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{c695317e-d806-4a95-a619-e5a771cfe1ae}">
+		<property name="color">
+			<value>Yellow</value>
+		</property>
+		<property name="isCutoff">
+			<value>true</value>
+		</property>
 		<property name="volume">
 			<value>1</value>
 		</property>

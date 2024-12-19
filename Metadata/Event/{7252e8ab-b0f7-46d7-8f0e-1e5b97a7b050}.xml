@@ -132,6 +132,9 @@
 		<property name="volume">
 			<value>-3</value>
 		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{5e8a07e8-3e7e-4244-9105-87d01c3366a9}</destination>
 		</relationship>

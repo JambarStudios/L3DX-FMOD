@@ -99,6 +99,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{9e6391b6-46a2-4ef9-a521-1c2f621e2f75}" />
 	<object class="SingleSound" id="{44f6bfc8-c9f8-4124-b417-a000c7ca7cc3}">
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
 		<property name="length">
 			<value>59.3798125</value>
 		</property>
