@@ -39,7 +39,6 @@
 		</relationship>
 		<relationship name="banks">
 			<destination>{2df1f750-3944-4bd0-8a2e-48740b572b78}</destination>
-			<destination>{12b25331-e632-4c40-b9c0-8d09193f731a}</destination>
 		</relationship>
 		<relationship name="defaultEvent">
 			<destination>{e6b09d63-55d1-4336-a7ab-c9252f9e48b0}</destination>
@@ -143,6 +142,9 @@
 	<object class="MixerBusPanner" id="{c3284c13-067a-40fd-aad4-70f1024ecfdd}" />
 	<object class="MixerBusFader" id="{c15d0e4e-76f7-4f50-8396-6fb8a3dc49d1}" />
 	<object class="SFXReverbEffect" id="{d92ae151-5aa3-41c7-81a8-956a9ba3f3da}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="earlyDelay">
 			<value>7</value>
 		</property>

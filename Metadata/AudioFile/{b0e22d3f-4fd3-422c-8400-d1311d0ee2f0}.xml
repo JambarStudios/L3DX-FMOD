@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{b0e22d3f-4fd3-422c-8400-d1311d0ee2f0}">
 		<property name="assetPath">
-			<value>music/Pesto_Anchovy.ogg</value>
+			<value>l3dx/music/Pesto_Anchovy.ogg</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

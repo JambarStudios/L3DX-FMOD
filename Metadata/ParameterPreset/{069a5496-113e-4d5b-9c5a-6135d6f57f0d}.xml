@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{069a5496-113e-4d5b-9c5a-6135d6f57f0d}">
+		<property name="name">
+			<value>WarFade</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ebd80d4a-6c3c-468b-883d-cc9e4f67e374}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{711eb54c-9044-45f9-9bd5-a4e10e3de16d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{711eb54c-9044-45f9-9bd5-a4e10e3de16d}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.64999997615814209</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

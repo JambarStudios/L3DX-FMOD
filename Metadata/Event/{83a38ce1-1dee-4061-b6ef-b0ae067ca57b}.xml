@@ -27,7 +27,6 @@
 			<destination>{949884fa-65e0-43ff-afc9-51254d1de7a0}</destination>
 		</relationship>
 		<relationship name="markerTracks">
-			<destination>{7e1d572f-e087-4890-99db-1663490804ae}</destination>
 			<destination>{2cd75b7e-46f0-45c9-84a4-cb1e28c0a23f}</destination>
 		</relationship>
 		<relationship name="groupTracks">
@@ -65,7 +64,6 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{949884fa-65e0-43ff-afc9-51254d1de7a0}" />
-	<object class="MarkerTrack" id="{7e1d572f-e087-4890-99db-1663490804ae}" />
 	<object class="MarkerTrack" id="{2cd75b7e-46f0-45c9-84a4-cb1e28c0a23f}" />
 	<object class="GroupTrack" id="{19eda5d1-f808-436d-8e92-549230034a33}">
 		<relationship name="modules">
@@ -82,10 +80,8 @@
 			<destination>{7fb9b7e6-1252-41a0-9dfe-39b0bbe7f5b7}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{e261839f-164d-458c-8da1-ac33e79475a2}</destination>
 			<destination>{297f4279-bfde-459f-94d6-c3cb20fa11a9}</destination>
 			<destination>{70916c16-0b49-4fda-a956-e8dc83cb8b04}</destination>
-			<destination>{2e35e46e-b252-42f1-93ae-9d80ba59a360}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2d13aa0c-86b4-4ff9-a100-585fe729ebe1}">
@@ -106,8 +102,8 @@
 	</object>
 	<object class="MixerBusPanner" id="{864431aa-9508-4276-9eb2-88eedf10eb25}" />
 	<object class="SingleSound" id="{0855d820-daf7-4279-9858-9a476c7019ad}">
-		<property name="start">
-			<value>2</value>
+		<property name="color">
+			<value>Blue Light 2</value>
 		</property>
 		<property name="length">
 			<value>64</value>
@@ -117,8 +113,11 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{7fb9b7e6-1252-41a0-9dfe-39b0bbe7f5b7}">
+		<property name="color">
+			<value>Magenta Light 2</value>
+		</property>
 		<property name="start">
-			<value>69</value>
+			<value>67</value>
 		</property>
 		<property name="length">
 			<value>74.666666666666671</value>
@@ -141,23 +140,9 @@
 			<destination>{2d13aa0c-86b4-4ff9-a100-585fe729ebe1}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{e261839f-164d-458c-8da1-ac33e79475a2}">
-		<property name="position">
-			<value>2</value>
-		</property>
-		<property name="length">
-			<value>64</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{c265a776-0ad9-4505-afb2-b565211b3069}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{7e1d572f-e087-4890-99db-1663490804ae}</destination>
-		</relationship>
-	</object>
 	<object class="LoopRegion" id="{297f4279-bfde-459f-94d6-c3cb20fa11a9}">
 		<property name="position">
-			<value>69</value>
+			<value>67</value>
 		</property>
 		<property name="length">
 			<value>74.666666666666686</value>
@@ -184,7 +169,7 @@
 	</object>
 	<object class="LoopRegion" id="{70916c16-0b49-4fda-a956-e8dc83cb8b04}">
 		<property name="position">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<property name="length">
 			<value>64</value>
@@ -204,20 +189,6 @@
 		<relationship name="triggerConditions">
 			<destination>{35a5bdb9-5f81-4ac8-b400-5188866bd2e4}</destination>
 			<destination>{f54f046f-a8dc-417f-9d70-0b19d360e4c4}</destination>
-		</relationship>
-	</object>
-	<object class="LoopRegion" id="{2e35e46e-b252-42f1-93ae-9d80ba59a360}">
-		<property name="position">
-			<value>69</value>
-		</property>
-		<property name="length">
-			<value>74.666666666666686</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{c265a776-0ad9-4505-afb2-b565211b3069}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{7e1d572f-e087-4890-99db-1663490804ae}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{bfdcbabd-5ef9-412e-a0de-b8c9546bb07b}">
