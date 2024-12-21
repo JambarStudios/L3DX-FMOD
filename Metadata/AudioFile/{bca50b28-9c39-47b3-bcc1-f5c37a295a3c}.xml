@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{bca50b28-9c39-47b3-bcc1-f5c37a295a3c}">
 		<property name="assetPath">
-			<value>Lap3DX-music/lap3_2.wav</value>
+			<value>l3dx/music/lap3_2.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
